@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #493b3b;
+  }
+
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://games.mail.ru/pre_895x0_resize/hotbox/content_files/news/2021/12/02/a99b8bd160c9455592d19ef3229ceb58.jpg?quality=85&format=webp);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 23px;
+    left: 30px;
+    right: 30px;
+    height: 65px;
+    z-index: 1;
+}
+
+header .photo {
+    border-right: 2px solid black;
+    box-sizing: content-box;
+    height: 63px;
+    width: 63px;
+    overflow: hidden;
+    position: absolute;
+}
+
+header .photo img {
+    position: relative;
+    width: 70px;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.container > div {
+    padding: 100px 20px 20px;
+}
+  
+.container section {
+    padding-top: 20px;
+}
+
+.left-side {
+    background-color: lightgreen;
+}
+
+.info > div {
+    margin-top: 9px;
+}
+
+.info > div :first-child {
+    font-weight: 800;
+}
+
+.list ul,
+.skills ul {
+    padding-left: 15px;
+}
+
+.list ul li {
+    list-style-type: square;
+}
+
+.list ul li + li {
+    margin-top: 5px;
+}
+
+.languages {
+    display: flex;
+    justify-content: left;
+}
+
+.languages ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.languages > div {
+    width: 200px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.right-side {
+    width: 570px;
+    background-color: whitesmoke;
+}
+
+.right-side section {
+    padding-bottom: 15px;
+    line-height: 22px;
+}
+
+.right-side section + section {
+    border-top: 1px solid gray;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills :nth-child(3) {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.skills + div {
+    margin-top: 15px;
+}
+
+.skills > div :first-child {
+    margin-top: 9px;
+    font-weight: 800;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: left;
+}
+
+.skill-info ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.skill-info + div {
+    margin-top: 5px;
+}
+
+.skill-info > div {
+    width: 270px;
+    font-weight: 800;
+}
+
+.rating {
+    list-style: none;
+    padding: 0;
+}
+
+.rating li {
+    width: 7px;
+    height: 7px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.rating li + li {
+    margin-left: 6px;
+}
+
+.rating.mark-1 li:first-child {
+    background-color: black;
+}
+
+.rating.mark-2 li:nth-child(-n + 2) {
+    background-color: black;
+}
+
+.rating.mark-3 li:nth-child(-n + 3) {
+    background-color: black;
+}
+
+.rating.mark-4 li:nth-child(-n + 4) {
+    background-color: black;
+}
+
+.rating.mark-5 li {
+    background-color: black;
+}
+
+  
